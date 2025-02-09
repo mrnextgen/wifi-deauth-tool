@@ -15,4 +15,5 @@
    ```bash
    sudo airmon-ng start <interface>
 sudo python3 deauth_tool.py -a <AP_MAC> -c <CLIENT_MAC> -i <INTERFACE> -n 100
+
 sudo python3 deauth_tool.py -a 00:11:22:33:44:55 -c FF:FF:FF:FF:FF:FF -i wlan0mon -n 100
